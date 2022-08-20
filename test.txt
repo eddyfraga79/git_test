@@ -1,1 +1,2 @@
 1, 2, 3
+Adding a little more details to this file and see if I can see the git commits about these various changes.
