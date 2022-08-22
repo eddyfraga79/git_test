@@ -18,7 +18,7 @@ int welcome_message(void)
 //////////////////////////////////////////////////////////////////////
 int main(void)
 {
-	printf("Follwo the white rabbit...\n");
+	printf("Follow the white rabbit...\n");
 	return 0;
 }
 
