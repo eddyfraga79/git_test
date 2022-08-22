@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1, 2, 3
 Adding a little more details to this file and see if I can see the git commits about these various changes.
 
@@ -13,3 +14,6 @@ ewkoperwjpwojmaf
 
 
 asdsjkld;ajlfkjl'
+=======
+1, 2, 3
+>>>>>>> parent of 116cdb1 (Update test.txt)
