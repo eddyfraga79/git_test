@@ -18,7 +18,11 @@ int welcome_message(void)
 //////////////////////////////////////////////////////////////////////
 int main(void)
 {
+	int i = 0;
 	printf("Follow the white rabbit...\n");
+	i = i++;
+	print("The value of i = %d\n", i);
+	
 	return 0;
 }
 
