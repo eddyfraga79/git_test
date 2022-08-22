@@ -11,14 +11,13 @@ Line 5
 //////////////////////////////////////////////////////////////////////
 int welcome_message(void)
 {
-	printf("Hello and welcome to the real world!!!\n");
 	return 0;
 }
 
 //////////////////////////////////////////////////////////////////////
 int main(void)
 {
-	printf("Follwo the white rabbit...\n");
+	printf("Follow the white rabbit...\n");
 	return 0;
 }
 
