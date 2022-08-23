@@ -1,6 +1,24 @@
 #include<stdio.h>
 
 //////////////////////////////////////////////////////////////////////
+double Multiply_Function(double x, double y)
+{
+	return (x * y);
+}
+
+//////////////////////////////////////////////////////////////////////
+double Divide_Function(double x, double y)
+{
+	return (x / y);
+}
+
+//////////////////////////////////////////////////////////////////////
+double Add_Function(double x, double y)
+{
+	return (x + y);
+}
+
+//////////////////////////////////////////////////////////////////////
 int welcome_message(void)
 {
 	printf("Hello and welcome to the real world!!!\n");
@@ -8,12 +26,32 @@ int welcome_message(void)
 }
 
 //////////////////////////////////////////////////////////////////////
+int HelloKitty(void)
+{
+	printf("Not sure what this function does, but its pretty like a kitty!!!\n");
+}
+
+//////////////////////////////////////////////////////////////////////
 int main(void)
 {
-	int i = 0;
+	unsigned int i = 0;
+	double x = 0;
+	double y = 0;
 	printf("Follow the white rabbit...\n");
-	i = i++;
-	print("The value of i = %d\n", i);
+	
+	for(i=0 ; i<10 ; i++)
+	{
+		x = x++;
+		y = y++;
+		
+		print("The value of x = %f\n", x);
+		print("The value of y = %f\n", y);
+		
+		Add_Function(x, y);
+		Multiply_Function(x, y);
+		Divide_Function(x, y);
+		Subtract_Function(x, y);
+	}
 	
 	return 0;
 }
