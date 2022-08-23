@@ -1,13 +1,19 @@
 #include<stdio.h>
 
 //////////////////////////////////////////////////////////////////////
-int Subtract_Function(int x, int y)
+double Multiply_Function(double x, double y)
 {
-	return (x - y);
+	return (x * y);
 }
 
 //////////////////////////////////////////////////////////////////////
-int Add_Function(int x, int y)
+double Divide_Function(double x, double y)
+{
+	return (x / y);
+}
+
+//////////////////////////////////////////////////////////////////////
+double Add_Function(double x, double y)
 {
 	return (x + y);
 }
